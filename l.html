@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		  <meta charset="UTF-8">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		      <title>I Love You Animation</title>
+		        <style>
+    @keyframes heartbeat {
+	          0% { transform: scale(1); }
+		        25% { transform: scale(1.2); }
+			      50% { transform: scale(1); }
+			            75% { transform: scale(1.2); }
+				          100% { transform: scale(1); }
+					      }
+
+        body {
+		      display: flex;
+		            align-items: center;
+			          justify-content: center;
+				        height: 100vh;
+					      margin: 0;
+					            background-color: #f4f4f4;
+						        }
+
+	    #loveText {
+		          font-family: 'Arial', sans-serif;
+			        font-size: 36px;
+				      color: #e74c3c;
+				            animation: heartbeat 2s infinite;
+					        }
+	      </style>
+	</head>
+	<body>
+		  <div id="loveText">I Love You</div>
+	</body>
+</html>
+
